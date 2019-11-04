@@ -1,17 +1,11 @@
 
-# TypeScript Typings for [Sequelize v3](https://sequelize.readthedocs.io/en/v3/)
+# TypeScript Types for [Sequelize v3](https://sequelize.readthedocs.io/en/v3/)
 
 [![Build Status](https://travis-ci.org/types/npm-sequelize.svg?branch=v3)](https://travis-ci.org/types/npm-sequelize)
 
 ## Usage
 
 First, install:
-```bash
-typings install --save sequelize@3
-```
-
-or
-
 ```bash
 npm install --save-dev types/npm-sequelize#<commit hash>
 ```

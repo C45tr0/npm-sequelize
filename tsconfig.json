@@ -3,14 +3,7 @@
     "noImplicitAny": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "noEmit": true,
-    "typeRoots": [
-      "typings/globals",
-      "typings/modules"
-    ]
+    "noEmit": true
   },
-  "include": [
-    "index.d.ts",
-    "lib/**/*.d.ts"
-  ]
+  "include": ["index.d.ts", "lib/**/*.d.ts"]
 }

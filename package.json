@@ -2,8 +2,7 @@
   "name": "@types/sequelize",
   "version": "3.30.4",
   "private": true,
-  "description": "Typescript Typings for Sequelize",
-  "typings": "index.d.ts",
+  "description": "Typescript Types for Sequelize",
   "dependencies": {
     "@types/bluebird": "^3.5.5",
     "@types/validator": "types/validator#83990944fcc53bcb4b05b347c3cdfcb7aa05b3c7"
@@ -11,15 +10,13 @@
   "devDependencies": {
     "tslint": "^5.4.3",
     "typedoc": "^0.7.1",
-    "typescript": "^2.3.4",
-    "typings": "^2.1.1"
+    "typescript": "^2.3.4"
   },
   "scripts": {
-    "postinstall": "typings install && typings prune",
-    "build": "tsc -p . && typings bundle -o dist/index.d.ts",
+    "build": "tsc -p .",
     "test": "tsc -p test",
     "lint": "tslint -c tslint.json index.d.ts 'lib/**/*.ts' 'test/**/*.ts'",
-    "typedoc": "typedoc --module es6 --target es6 --includeDeclarations --excludeExternals --readme docs_index.md --name \"TypeScript definitions for Sequelize\" --mode file --out typedoc index.d.ts lib/data-types.d.ts typings/index.d.ts"
+    "typedoc": "typedoc --module es6 --target es6 --includeDeclarations --excludeExternals --readme docs_index.md --name \"TypeScript definitions for Sequelize\" --mode file --out typedoc index.d.ts lib/data-types.d.ts"
   },
   "repository": {
     "type": "git",
